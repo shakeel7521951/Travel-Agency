@@ -3,7 +3,7 @@ import { FaGlobe, FaAward, FaLeaf, FaPlane, FaUsers } from 'react-icons/fa';
 
 const Our_Story = () => {
   return (
-    <section className="py-28 bg-gradient-to-b from-white to-blue-50 relative overflow-hidden">
+    <section className="py-14 bg-gradient-to-b from-white to-blue-50 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute -top-24 left-0 right-0 h-24 bg-gradient-to-b from-white to-blue-50 transform -skew-y-2 origin-top-right z-10"></div>
       <div className="absolute top-1/4 -right-20 w-64 h-64 rounded-full bg-blue-100 opacity-40 blur-3xl"></div>
@@ -44,7 +44,7 @@ const Our_Story = () => {
             <div className="inline-block mb-6 px-4 py-2 bg-yellow-400/10 rounded-full backdrop-blur-sm">
               <span className="text-yellow-600 font-bold uppercase tracking-wider">Our Journey</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
               Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">Unforgettable Journeys</span> With Passion
             </h2>
             <p className="text-gray-600 mb-8 text-lg md:text-xl leading-relaxed">
@@ -90,7 +90,7 @@ const Our_Story = () => {
               ))}
             </div>
             
-            <button className="mt-10 relative inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-bold rounded-full overflow-hidden group shadow-lg hover:shadow-xl transition-all duration-300">
+            <button className="mt-10 relative inline-flex items-center px-6 py-2 sm:px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-bold rounded-full overflow-hidden group shadow-lg hover:shadow-xl transition-all duration-300">
               <span className="relative z-10 flex items-center">
                 <FaPlane className="mr-3 transform -rotate-45 transition-transform duration-300 group-hover:rotate-0" />
                 Explore Our Story

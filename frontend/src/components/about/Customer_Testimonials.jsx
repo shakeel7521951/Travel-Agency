@@ -64,7 +64,7 @@ const Customer_Testimonials = () => {
   };
 
   return (
-    <section className="py-28 bg-white relative">
+    <section className="py-14 bg-white relative">
       <div className="absolute -top-24 left-0 right-0 h-24 bg-white transform -skew-y-2 origin-top-right z-10"></div>
       
       <div className="container mx-auto px-6">

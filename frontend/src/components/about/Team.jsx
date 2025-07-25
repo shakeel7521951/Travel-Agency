@@ -4,7 +4,7 @@ import { FiTwitter, FiLinkedin, FiInstagram, FiGithub } from 'react-icons/fi';
 
 const Team = () => {
   return (
-    <section className="py-28 bg-gradient-to-b from-blue-50 to-white relative overflow-hidden">
+    <section className="py-10 bg-gradient-to-b from-blue-50 to-white relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-10">
         <div className="absolute top-20 left-10 w-40 h-40 rounded-full bg-blue-400 filter blur-3xl"></div>
@@ -18,7 +18,7 @@ const Team = () => {
           <div className="inline-block mb-4 px-4 py-2 bg-blue-100 rounded-full">
             <span className="text-blue-600 font-bold uppercase tracking-wider text-sm">MEET THE TEAM</span>
           </div>
-          <h2 className="text-5xl font-bold text-gray-800 mb-6">
+          <h2 className="text-3xl sm:text-5xl font-bold text-gray-800 mb-6">
             The <span className="text-blue-600">Passionate Minds</span> Behind Your Adventures
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-xl">
@@ -29,7 +29,7 @@ const Team = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              img: "https://randomuser.me/api/portraits/women/32.jpg",
+              img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
               name: "Sarah Johnson",
               role: "CEO & Founder",
               bio: "15+ years transforming travel experiences",
@@ -38,7 +38,7 @@ const Team = () => {
               expertise: "Global Travel Expert"
             },
             {
-              img: "https://randomuser.me/api/portraits/men/75.jpg",
+              img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
               name: "Michael Chen",
               role: "Operations Director",
               bio: "Ensuring seamless journeys worldwide",
@@ -47,7 +47,7 @@ const Team = () => {
               expertise: "Multilingual Specialist"
             },
             {
-              img: "https://randomuser.me/api/portraits/women/68.jpg",
+              img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
               name: "Priya Patel",
               role: "Customer Experience",
               bio: "Making every trip unforgettable",
@@ -56,7 +56,7 @@ const Team = () => {
               expertise: "VIP Experience Curator"
             },
             {
-              img: "https://randomuser.me/api/portraits/men/41.jpg",
+              img: "https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8fDB8fHww",
               name: "David Kim",
               role: "Technology Lead",
               bio: "Innovating travel tech solutions",

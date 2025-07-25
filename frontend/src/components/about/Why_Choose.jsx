@@ -42,7 +42,7 @@ const Why_Choose = () => {
   ];
 
   return (
-    <section className="py-28 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 relative overflow-hidden">
+    <section className="py-14 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden opacity-10">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1556388158-158ea5ccacbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')] bg-cover bg-center"></div>
